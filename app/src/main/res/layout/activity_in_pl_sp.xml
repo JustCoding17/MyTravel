@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InPlSp">
+
+    <LinearLayout
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="350dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView7">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonBack13"
+            android:layout_width="62dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text="rtrtrt"
+            android:textSize="1dp"
+            android:visibility="visible"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="457dp"
+        android:layout_height="85dp"
+        android:background="@color/LightGray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Ur"
+            android:textAlignment="textEnd"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pl2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Tr"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Интересные места"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------------------------------------------------------------------------------------"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="416dp"
+        android:layout_height="623dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Замок Коломарес (Бенальмадена)"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                app:srcCompat="@drawable/spain_5_colomares_castle_e1491983263851" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Некоторые достопримечательности Испании носят налет футуризма. К таким объектам относится Замок Коломарес, расположенный в небольшом курортном городке. Его называют легендой, высеченной в камне и ярко повествующей об открытии Америки. Построенный в 1994 году в честь 500-летия события, он впечатляет туристов смешением стилей, создавая сходство с кружевным плетением.  Наряду с выступающей из стены частью реплики корабля Колумба, в камне запечатлены еще три корабля, сопровождавшие экспедицию мореплавателя, – «Нинья», «Санта Мария» и «Пинта».  На территории замка можно найти самую маленькую в мире часовню площадью менее 2 кв. м. При создании объектов замка использовался бетон, кирпич, камень, стекло и дерево. Архитектура башен, дворца и фонтанов символизирует события, сыгравшие важное роль в истории Испании."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

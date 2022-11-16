@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InPlCzh">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="457dp"
+        android:layout_height="85dp"
+        android:background="@color/LightGray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Ur"
+            android:textAlignment="textEnd"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pl2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Tr"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Интересные места"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------------------------------------------------------------------------------------"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="406dp"
+        android:layout_height="629dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Пражский град"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="289dp"
+                app:srcCompat="@drawable/czech_1_prague_castle_e1491202258920" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Одна из важнейших достопримечательностей Чехии, буквально ставшая символом государства, - это крупнейший замок Пражский Град, расположенный в Праге. Он представляет собой целый комплекс зданий, храмов и фортовых укреплений, окружающих главные площади и дворы города. Это целый район города, довольно крупный по площади, который выполняет культурную, историческую и политическую роль. Раньше замок служил резиденцией чешских королей и императоров, сегодня он играет роль представительства президента страны. Резиденцию охраняет большое воинское подразделение, состоящее из шести сотен стражей Града. Каждый час здесь происходит смена караула, а в полдень это действо даже сопровождает специальный оркестр. Гости города специально приходят к стенам комплекса, с целью посмотреть эту торжественную церемонию.  Пражский град в наши дни стал одним из самых посещаемых туристических объектов города. В парадные залы дворцового комплекса посетители допускаются лишь дважды в год — 8 мая (день Освобождения) и 28 октября (день основания республики.)"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------------------------------------------------------------------" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Собор Святого Вита"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                app:srcCompat="@drawable/czech_4_the_metropolitan_cathedral_of_saints_vitus_wenceslaus_and_adalbert_e1491202798968" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если вы зададитесь вопросом, что является самой из самых значимых достопримечательностей Чехии, то любой местный житель не задумываясь ответит, что это Собор Святого Вита - одна из важнейших достопримечательностей не только в Праге, но и во всём государстве. Это поистине грандиозное и монументальное сооружение, первый камень которого был заложен в середине 14 века, а последний этап строительства завершился лишь в середине прошлого столетия. На протяжении многих веков здесь проводились коронации чешских королей, праздновались королевские свадьбы, провожались в последний путь высокопоставленные личности страны. Над возведением Собора из века в век работали настоящие мастера своего дела. Величественное сооружение, воплощающее в себе смешение двух стилей — готики и барокко, степенно возвышается над старой Прагой, упираясь своими остроконечными шпилями прямо в небеса. К слову, самые высокие башни собора достигают в высоту сотни метров, именно поэтому здание Собора можно без труда наблюдать практически из любого уголка чешской столицы."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="350dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonBack8"
+            android:layout_width="62dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text="rtrtrt"
+            android:textSize="1dp"
+            android:visibility="visible"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

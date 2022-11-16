@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InPlIt">
+
+    <LinearLayout
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="350dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView5">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonBack11"
+            android:layout_width="62dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text="rtrtrt"
+            android:textSize="1dp"
+            android:visibility="visible"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="457dp"
+        android:layout_height="85dp"
+        android:background="@color/LightGray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Ur"
+            android:textAlignment="textEnd"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pl2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Tr"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Интересные места"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------------------------------------------------------------------------------------"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="408dp"
+        android:layout_height="623dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Галерея Уффици (г. Флоренция)"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                app:srcCompat="@drawable/italy_8_the_uffizi_gallery_e1492908380381" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Для ценителей искусства всего мира существует место, которое является своеобразной Меккой, куда следует попасть хоть раз в жизни. Поэтому на вопрос о том, что посмотреть в Италии, существует однозначный ответ — галерею Уффици.  Знаменитый музей хранит оригиналы полотен Леонардо да Винчи, Боттичелли, Рафаэля, Микеланджело и многих других великих художников. Многие из шедевров были созданы в промежутке между XII и XVII веками, но большинство полотен относятся к Эпохе Возрождения.  Найти здание этого музея во Флоренции можно по огромной живой очереди, которая выстраивается еще с раннего утра. Поэтому, решив посетить галерею, не стоит на этот день планировать никакие другие экскурсии. К тому же обилие впечатлений от увиденных шедевров и полученной информации требует больших внутренних сил.  Архитектурный ансамбль дворца Уффици представлен двумя трехэтажными зданиями в форме подковы, стоящими параллельно друг другу. Основная часть экспозиции находится на втором этаже, куда ведут 126 ступеней знаменитой лестницы Вазари, сделанной из серого камня. Своды галереи украшают фрески.  В коридорах и залах, помимо известных шедевров живописи, представлены также ценные скульптуры или их точные копии, коллекции драгоценных камней, старинных монет, ваз и других предметов старины."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

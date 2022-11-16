@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InPlFr">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="457dp"
+        android:layout_height="85dp"
+        android:background="@color/LightGray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Ur"
+            android:textAlignment="textEnd"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pl2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Tr"
+            android:textColor="@color/yt"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Интересные места"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------------------------------------------------------------------------------------"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="348dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonBack9"
+            android:layout_width="62dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text="rtrtrt"
+            android:textSize="1dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="408dp"
+        android:layout_height="639dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Эйфелева башня"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                app:srcCompat="@drawable/france_1_the_eiffel_tower_e1492754610997" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если Вы ещё раздумываете, что посмотреть во Франции, незамедлительно отправляйтесь в его столицу, ведь достопримечательностей Парижа так много, что даже частичное их изучение не уложится в одну поездку. Символом Парижа, как вы уже догадываетесь, стала главная достопримечательность Франции - Эйфелева башня — один из самых посещаемых и узнаваемых архитектурных объектов в мире.  Это сейчас башня Эйфеля снискала мировую известность, а когда-то она вызывала неоднозначную реакцию среди парижан. В то время, как гости города восхищались монументальностью этого сооружения, многие жители, потрясённые размерами башни, были против её присутствия в городе и не раз требовали от властей разобрать это сооружение.  От сноса это архитектурное творение было спасено лишь благодаря наступлению эпохи радиочастотных волн, когда Эйфелева башня стала идеальным сооружением для установки радиоантенн.  История всемирно известного сооружения началась в 1886 году, когда был организован конкурс, целью которого был отбор наилучших инженерных и архитектурных проектов. Лучшие из них должны были представляться на всемирной выставке, посвящённой столетию Французской революции. На выставке большинство представленных проектов были идентичны и представляли собой разновидность Эйфелевой башни. Лишь конструктор Гюстав Эйфель смог внести в свой проект такие изменения, которые позволили ему завоевать разрешение на строительство его архитектурного шедевра."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-------------------------------------------------------------------------------------------------" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дворец Фонтенбло (50 км от г.Париж)"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                app:srcCompat="@drawable/france_7_palace_of_fontainebleau_e1492755772954" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Задавшись вопросом, что посмотреть во Франции, в список памятников архитектуры нельзя не включить дворец Фонтенбло — один из самых крупных и красивых королевских дворцов страны. Он расположен в 50 км юго-восточнее столицы, среди обширного лесного массива. Сооружение включает и изящные башенки, и приземистые постройки, поэтому резиденцию часто сравнивают с разными по форме и высоте фужерами.  Само название дворца переводится как «прекрасный фонтан» и происходит от названия родника, из которого некогда сам Наполеон Бонапарт черпал силы, выпивая по утрам стакан чистейшей родниковой воды.  Начало истории дворца было положено в начале 12 века, когда король Людовик VII решил построить в этих живописных краях свою резиденцию. Изначально нынешний дворец скорее напоминал средневековую крепость, что было характерно для той эпохи. И лишь в 16 веке при правившем тогда короле Франциске I крепость обретает вид настоящего дворца. Для строительства привлекаются самые известные итальянские мастера, которые оформляют дворец в стиле маньеризма. При наследнике короля Генрихе II продолжается доведение внутреннего и внешнего убранства дворца до идеала. Бальную комнату украшают вычурными вензелями, а большой зал, который ещё называют галереей, украшают удивительными по красоте фресками. Солнечный свет, проникающий сквозь большие оконные проёмы зала, будто бы наполняет его золотом."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
